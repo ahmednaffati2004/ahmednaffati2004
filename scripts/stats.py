@@ -60,7 +60,8 @@ def odometer(value, x, y, delay):
         col = "".join(f'<text x="0" y="{(n+1)*DIGIT_H - 10}" class="v">{n}</text>' for n in list(range(10)) + list(range(10)))
         stop = -(10 + d) * DIGIT_H
         out += (f'<svg x="{x + i*30}" y="{y}" width="30" height="{DIGIT_H}" overflow="hidden">'
-                f'<g class="roll" style="--to:{stop}px;animation-delay:{delay + i*0.12:.2f}s">{col}</g></svg>')
+                f'<g>{col}<animateTransform attributeName="transform" type="translate" from="0 0" to="0 {stop}" '
+                f'dur="1.8s" begin="{delay + i*0.12:.2f}s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 1 .3 1"/></g></svg>')
     return out
 
 
