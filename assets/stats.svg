@@ -1,36 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0c11"/><stop offset="1" stop-color="#17130a"/></linearGradient>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0c11"/><stop offset="1" stop-color="#0e0c1c"/></linearGradient>
 <clipPath id="bc"><rect x="40" y="214" width="1120" height="12" rx="6"/></clipPath>
 <style>
-.v{font:800 44px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#f5e6b8}
-.l{font:600 12px 'SF Mono',Menlo,Consolas,monospace;letter-spacing:2.5px;fill:#c9a227}
-.lg{font:500 15px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#d6d1c2}
-.h{font:600 12px 'SF Mono',Menlo,Consolas,monospace;letter-spacing:3px;fill:#7d786a}
+.v{font:800 44px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#eef0ff}
+.l{font:600 12px 'SF Mono',Menlo,Consolas,monospace;letter-spacing:2.5px;fill:#8b7cff}
+.lg{font:500 15px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#cfd2e0}
+.h{font:600 12px 'SF Mono',Menlo,Consolas,monospace;letter-spacing:3px;fill:#7b7f94}
 .in{opacity:0;animation:in .9s cubic-bezier(.2,.8,.2,1) forwards}
 @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 .grow{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:g 1s cubic-bezier(.2,.8,.2,1) forwards}
 @keyframes g{to{transform:scaleX(1)}}
 </style></defs>
-<rect x="1" y="1" width="1198" height="298" rx="18" fill="url(#bg)" stroke="#c9a227" stroke-opacity=".25"/>
+<rect x="1" y="1" width="1198" height="298" rx="18" fill="url(#bg)" stroke="#8b7cff" stroke-opacity=".25"/>
 <g class="in" style="animation-delay:0.2s">
-<rect x="40" y="40" width="255" height="120" rx="14" fill="#11141b" stroke="#c9a227" stroke-opacity=".22"/>
+<rect x="40" y="40" width="255" height="120" rx="14" fill="#11141b" stroke="#8b7cff" stroke-opacity=".22"/>
 <text x="64" y="108" class="v">27</text>
 <text x="64" y="138" class="l">REPOSITORIES</text>
-<rect x="64" y="62" width="28" height="2" fill="#c9a227"/></g><g class="in" style="animation-delay:0.45s">
-<rect x="325" y="40" width="255" height="120" rx="14" fill="#11141b" stroke="#c9a227" stroke-opacity=".22"/>
+<rect x="64" y="62" width="28" height="2" fill="#8b7cff"/></g><g class="in" style="animation-delay:0.45s">
+<rect x="325" y="40" width="255" height="120" rx="14" fill="#11141b" stroke="#8b7cff" stroke-opacity=".22"/>
 <text x="349" y="108" class="v">1</text>
 <text x="349" y="138" class="l">STARS EARNED</text>
-<rect x="349" y="62" width="28" height="2" fill="#c9a227"/></g><g class="in" style="animation-delay:0.7s">
-<rect x="610" y="40" width="255" height="120" rx="14" fill="#11141b" stroke="#c9a227" stroke-opacity=".22"/>
+<rect x="349" y="62" width="28" height="2" fill="#8b7cff"/></g><g class="in" style="animation-delay:0.7s">
+<rect x="610" y="40" width="255" height="120" rx="14" fill="#11141b" stroke="#8b7cff" stroke-opacity=".22"/>
 <text x="634" y="108" class="v">—</text>
 <text x="634" y="138" class="l">CONTRIBUTIONS · 1Y</text>
-<rect x="634" y="62" width="28" height="2" fill="#c9a227"/></g><g class="in" style="animation-delay:0.95s">
-<rect x="895" y="40" width="255" height="120" rx="14" fill="#11141b" stroke="#c9a227" stroke-opacity=".22"/>
+<rect x="634" y="62" width="28" height="2" fill="#8b7cff"/></g><g class="in" style="animation-delay:0.95s">
+<rect x="895" y="40" width="255" height="120" rx="14" fill="#11141b" stroke="#8b7cff" stroke-opacity=".22"/>
 <text x="919" y="108" class="v">4</text>
 <text x="919" y="138" class="l">YEARS ON GITHUB</text>
-<rect x="919" y="62" width="28" height="2" fill="#c9a227"/></g>
+<rect x="919" y="62" width="28" height="2" fill="#8b7cff"/></g>
 <text x="40" y="200" class="h">LANGUAGES</text>
 <rect x="40" y="214" width="1120" height="12" rx="6" fill="#1b1f28"/>
-<g clip-path="url(#bc)"><rect x="40.0" y="214" width="629.0" height="12" fill="#f5e6b8" class="grow" style="animation-delay:0.90s"/><rect x="672.0" y="214" width="429.6" height="12" fill="#e2bd52" class="grow" style="animation-delay:1.02s"/><rect x="1104.6" y="214" width="34.9" height="12" fill="#c9a227" class="grow" style="animation-delay:1.14s"/><rect x="1142.5" y="214" width="9.0" height="12" fill="#9c7d25" class="grow" style="animation-delay:1.26s"/><rect x="1154.5" y="214" width="2.5" height="12" fill="#6b5620" class="grow" style="animation-delay:1.38s"/></g>
-<circle cx="46" cy="258" r="5" fill="#f5e6b8"/><text x="60" y="263" class="lg">HTML <tspan fill="#7d786a">56%</tspan></text><circle cx="270" cy="258" r="5" fill="#e2bd52"/><text x="284" y="263" class="lg">CSS <tspan fill="#7d786a">39%</tspan></text><circle cx="494" cy="258" r="5" fill="#c9a227"/><text x="508" y="263" class="lg">SCSS <tspan fill="#7d786a">3%</tspan></text><circle cx="718" cy="258" r="5" fill="#9c7d25"/><text x="732" y="263" class="lg">JavaScript <tspan fill="#7d786a">1%</tspan></text><circle cx="942" cy="258" r="5" fill="#6b5620"/><text x="956" y="263" class="lg">Java <tspan fill="#7d786a">0%</tspan></text>
+<g clip-path="url(#bc)"><rect x="40.0" y="214" width="629.0" height="12" fill="#eef0ff" class="grow" style="animation-delay:0.90s"/><rect x="672.0" y="214" width="429.6" height="12" fill="#a99bff" class="grow" style="animation-delay:1.02s"/><rect x="1104.6" y="214" width="34.9" height="12" fill="#8b7cff" class="grow" style="animation-delay:1.14s"/><rect x="1142.5" y="214" width="9.0" height="12" fill="#5ee1ff" class="grow" style="animation-delay:1.26s"/><rect x="1154.5" y="214" width="2.5" height="12" fill="#4a4290" class="grow" style="animation-delay:1.38s"/></g>
+<circle cx="46" cy="258" r="5" fill="#eef0ff"/><text x="60" y="263" class="lg">HTML <tspan fill="#7b7f94">56%</tspan></text><circle cx="270" cy="258" r="5" fill="#a99bff"/><text x="284" y="263" class="lg">CSS <tspan fill="#7b7f94">39%</tspan></text><circle cx="494" cy="258" r="5" fill="#8b7cff"/><text x="508" y="263" class="lg">SCSS <tspan fill="#7b7f94">3%</tspan></text><circle cx="718" cy="258" r="5" fill="#5ee1ff"/><text x="732" y="263" class="lg">JavaScript <tspan fill="#7b7f94">1%</tspan></text><circle cx="942" cy="258" r="5" fill="#4a4290"/><text x="956" y="263" class="lg">Java <tspan fill="#7b7f94">0%</tspan></text>
 </svg>

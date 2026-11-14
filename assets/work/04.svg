@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="230" viewBox="0 0 600 230">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c0f15"/><stop offset="1" stop-color="#16130a"/></linearGradient>
-<linearGradient id="bd" x1="0" x2="1"><stop offset="0" stop-color="#c9a227" stop-opacity=".1"/><stop offset=".5" stop-color="#f5e6b8"/><stop offset="1" stop-color="#c9a227" stop-opacity=".1"/>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c0f15"/><stop offset="1" stop-color="#0e0c1c"/></linearGradient>
+<linearGradient id="bd" x1="0" x2="1"><stop offset="0" stop-color="#8b7cff" stop-opacity=".1"/><stop offset=".5" stop-color="#eef0ff"/><stop offset="1" stop-color="#8b7cff" stop-opacity=".1"/>
 <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="4s" begin="-1.2000000000000002s" repeatCount="indefinite"/></linearGradient>
-<radialGradient id="gl" cx="1" cy="0" r=".9"><stop offset="0" stop-color="#c9a227" stop-opacity=".22"/><stop offset="1" stop-color="#c9a227" stop-opacity="0"/></radialGradient>
+<radialGradient id="gl" cx="1" cy="0" r=".9"><stop offset="0" stop-color="#8b7cff" stop-opacity=".22"/><stop offset="1" stop-color="#8b7cff" stop-opacity="0"/></radialGradient>
 <style>
-.t{font:700 30px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#f5e6b8}
-.n{font:800 64px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:none;stroke:#c9a227;stroke-opacity:.35;stroke-width:1}
-.g{font:600 12px 'SF Mono',Menlo,Consolas,monospace;letter-spacing:2.5px;fill:#c9a227}
-.d{font:400 16px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#b8b4a8}
-.a{font:600 13px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;letter-spacing:2px;fill:#e2bd52}
+.t{font:700 30px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#eef0ff}
+.n{font:800 64px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:none;stroke:#8b7cff;stroke-opacity:.35;stroke-width:1}
+.g{font:600 12px 'SF Mono',Menlo,Consolas,monospace;letter-spacing:2.5px;fill:#8b7cff}
+.d{font:400 16px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#a9adbf}
+.a{font:600 13px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;letter-spacing:2px;fill:#a99bff}
 .in{opacity:0;animation:in .9s 1.2s cubic-bezier(.2,.8,.2,1) forwards}
 @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
-.ic{fill:none;stroke:#f5e6b8;stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round}
+.ic{fill:none;stroke:#eef0ff;stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round}
 .pulse{transform-box:fill-box;transform-origin:center;animation:p 3s ease-in-out 1.2s infinite}
 @keyframes p{0%,100%{opacity:.35;transform:scale(1)}50%{opacity:1;transform:scale(1.08)}}
 .ar{animation:mv 1.6s ease-in-out infinite}@keyframes mv{50%{transform:translateX(6px)}}
@@ -25,7 +25,7 @@
 <rect x="1" y="1" width="598" height="228" rx="16" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
 <g class="in">
 <text class="n" x="574" y="78" text-anchor="end">04</text>
-<rect class="pulse" x="30" y="30" width="52" height="52" rx="12" fill="#c9a227" fill-opacity=".1" stroke="#c9a227" stroke-opacity=".5"/>
+<rect class="pulse" x="30" y="30" width="52" height="52" rx="12" fill="#8b7cff" fill-opacity=".1" stroke="#8b7cff" stroke-opacity=".5"/>
 <g transform="translate(40 40)"><path class="ic" d="M6 10h20l-2 16H8zM11 10V8a5 5 0 0 1 10 0v2"/></g>
 <text class="t" x="30" y="128">E-Mall</text>
 <text class="g" x="30" y="152">SAAS · NEXT.JS · NESTJS</text>

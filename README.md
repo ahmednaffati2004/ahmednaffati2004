@@ -3,14 +3,14 @@
 <img src="./assets/hero.svg" width="100%" alt="Ahmed Naffati"/>
 
 <a href="https://ahmed-naffati.ly">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3200&pause=900&color=C9A227&center=true&vCenter=true&width=900&lines=Digital+products+built+with+purpose.;Fintech+%C2%B7+Logistics+%C2%B7+SaaS+%C2%B7+Education;Arabic-first%2C+RTL-native+experiences." alt="Typing intro"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3200&pause=900&color=8b7cff&center=true&vCenter=true&width=900&lines=Digital+products+built+with+purpose.;Fintech+%C2%B7+Logistics+%C2%B7+SaaS+%C2%B7+Education;Arabic-first%2C+RTL-native+experiences." alt="Typing intro"/>
 </a>
 
 <br/><br/>
 
-<a href="https://ahmed-naffati.ly"><img src="https://img.shields.io/badge/Portfolio-ahmed--naffati.ly-0d1117?style=for-the-badge&labelColor=c9a227&logo=googlechrome&logoColor=0d1117"/></a>
-<a href="https://www.linkedin.com/in/ahmed-naffati-79a786255"><img src="https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&labelColor=c9a227&logo=linkedin&logoColor=0d1117"/></a>
-<a href="mailto:info@ahmed-naffati.ly"><img src="https://img.shields.io/badge/Email-info@ahmed--naffati.ly-0d1117?style=for-the-badge&labelColor=c9a227&logo=maildotru&logoColor=0d1117"/></a>
+<a href="https://ahmed-naffati.ly"><img src="https://img.shields.io/badge/Portfolio-ahmed--naffati.ly-0d1117?style=for-the-badge&labelColor=8b7cff&logo=googlechrome&logoColor=0d1117"/></a>
+<a href="https://www.linkedin.com/in/ahmed-naffati-79a786255"><img src="https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&labelColor=8b7cff&logo=linkedin&logoColor=0d1117"/></a>
+<a href="mailto:info@ahmed-naffati.ly"><img src="https://img.shields.io/badge/Email-info@ahmed--naffati.ly-0d1117?style=for-the-badge&labelColor=8b7cff&logo=maildotru&logoColor=0d1117"/></a>
 
 </div>
 
@@ -44,7 +44,7 @@ for clients across Libya and remotely worldwide.
 </div>
 
 <div align="center">
-<a href="https://ahmed-naffati.ly/work"><img src="https://img.shields.io/badge/View%20all%2011%20case%20studies-%E2%86%92-c9a227?style=for-the-badge&labelColor=0d1117"/></a>
+<a href="https://ahmed-naffati.ly/work"><img src="https://img.shields.io/badge/View%20all%2011%20case%20studies-%E2%86%92-8b7cff?style=for-the-badge&labelColor=0d1117"/></a>
 </div>
 
 <img src="./assets/divider.svg" width="100%"/>
@@ -78,6 +78,6 @@ for clients across Libya and remotely worldwide.
 
 <sub><i>“Digital solutions that move with your ambition.”</i></sub>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:c9a227,50:1a1f2e,100:0d1117&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b7cff,50:1a1f2e,100:0d1117&height=120&section=footer" width="100%"/>
 
 </div>
