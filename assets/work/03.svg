@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="230" viewBox="0 0 600 230">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c0f15"/><stop offset="1" stop-color="#16130a"/></linearGradient>
+<linearGradient id="bd" x1="0" x2="1"><stop offset="0" stop-color="#c9a227" stop-opacity=".1"/><stop offset=".5" stop-color="#f5e6b8"/><stop offset="1" stop-color="#c9a227" stop-opacity=".1"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="4s" begin="-0.8s" repeatCount="indefinite"/></linearGradient>
+<radialGradient id="gl" cx="1" cy="0" r=".9"><stop offset="0" stop-color="#c9a227" stop-opacity=".22"/><stop offset="1" stop-color="#c9a227" stop-opacity="0"/></radialGradient>
+<style>
+.t{font:700 30px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#f5e6b8}
+.n{font:800 64px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:none;stroke:#c9a227;stroke-opacity:.35;stroke-width:1}
+.g{font:600 12px 'SF Mono',Menlo,Consolas,monospace;letter-spacing:2.5px;fill:#c9a227}
+.d{font:400 16px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#b8b4a8}
+.a{font:600 13px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;letter-spacing:2px;fill:#e2bd52}
+.in{opacity:0;animation:in .9s 0.8s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.ic{fill:none;stroke:#f5e6b8;stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round}
+.pulse{transform-box:fill-box;transform-origin:center;animation:p 3s ease-in-out 0.8s infinite}
+@keyframes p{0%,100%{opacity:.35;transform:scale(1)}50%{opacity:1;transform:scale(1.08)}}
+.ar{animation:mv 1.6s ease-in-out infinite}@keyframes mv{50%{transform:translateX(6px)}}
+.sw{animation:sw 5s linear 0.8s infinite}@keyframes sw{from{transform:translateX(-200px)}to{transform:translateX(800px)}}
+</style>
+<clipPath id="c"><rect x="1" y="1" width="598" height="228" rx="16"/></clipPath>
+</defs>
+<rect x="1" y="1" width="598" height="228" rx="16" fill="url(#bg)"/>
+<g clip-path="url(#c)"><rect width="600" height="230" fill="url(#gl)"/>
+<rect class="sw" x="0" y="0" width="80" height="230" fill="#f5e6b8" opacity=".035" transform="skewX(-20)"/></g>
+<rect x="1" y="1" width="598" height="228" rx="16" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
+<g class="in">
+<text class="n" x="574" y="78" text-anchor="end">03</text>
+<rect class="pulse" x="30" y="30" width="52" height="52" rx="12" fill="#c9a227" fill-opacity=".1" stroke="#c9a227" stroke-opacity=".5"/>
+<g transform="translate(40 40)"><path class="ic" d="M16 4c5 0 8 4 8 8 0 6-8 14-8 14S8 18 8 12c0-4 3-8 8-8zM16 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></g>
+<text class="t" x="30" y="128">Avvento</text>
+<text class="g" x="30" y="152">LOGISTICS · MAPS · iOS</text>
+<text class="d" x="30" y="182">Delivery super-app and on-demand parcel</text>
+<text class="d" x="30" y="204">service with live tracking across Libya.</text>
+<g class="ar"><text class="a" x="570" y="204" text-anchor="end">CASE STUDY →</text></g>
+</g></svg>

@@ -30,72 +30,18 @@ for clients across Libya and remotely worldwide.
 
 ## ◇ Selected Work
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-### 💳 MasterPay
-<sub>iOS · Fintech</sub><br/>
-Digital wallet, rechargeable payment card and international shopping tools for Libyan users.
+<a href="https://ahmed-naffati.ly/work"><img src="./assets/work/01.svg" width="49%" alt="MasterPay"/></a>
+<a href="https://ahmed-naffati.ly/work"><img src="./assets/work/02.svg" width="49%" alt="Waseet Pay"/></a>
+<a href="https://ahmed-naffati.ly/work"><img src="./assets/work/03.svg" width="49%" alt="Avvento"/></a>
+<a href="https://ahmed-naffati.ly/work"><img src="./assets/work/04.svg" width="49%" alt="E-Mall"/></a>
+<a href="https://ahmed-naffati.ly/work"><img src="./assets/work/05.svg" width="49%" alt="Libyan Document"/></a>
+<a href="https://ahmed-naffati.ly/work"><img src="./assets/work/06.svg" width="49%" alt="Master Academy"/></a>
+<a href="https://ahmed-naffati.ly/work"><img src="./assets/work/07.svg" width="49%" alt="Al Raqi Libya"/></a>
+<a href="https://ahmed-naffati.ly/work"><img src="./assets/work/08.svg" width="49%" alt="Afaq Tahakum"/></a>
 
-</td>
-<td width="50%" valign="top">
-
-### 📲 Waseet Pay — وسيط باي
-<sub>iOS · Wallet · QR · KYC</sub><br/>
-Libyan e-wallet for transfers, QR payments, top-ups and digital cards.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-### 🛵 Avvento & Avvento Go
-<sub>iOS · Logistics · Maps</sub><br/>
-Delivery super-app and on-demand parcel service with live tracking across Libyan cities.
-
-</td>
-<td valign="top">
-
-### 🛍️ E-Mall
-<sub>Next.js · NestJS · PostgreSQL · Prisma</sub><br/>
-Multi-tenant SaaS commerce: Arabic RTL storefronts, merchant admin, strict store isolation.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-### 🏛️ Libyan Document
-<sub>Next.js · Prisma · Framer Motion</sub><br/>
-Cinematic platform documenting Libyan heritage, with community submissions and a full CMS.
-
-</td>
-<td valign="top">
-
-### 🎓 Master Academy
-<sub>PHP · SQLite · REST APIs</sub><br/>
-Training academy with admin, instructor and student portals on one unified core.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-### ♻️ Al Raqi Libya — الراقي ليبيا
-<sub>iOS · Subscriptions · Field Service</sub><br/>
-Municipal waste collection: schedules, billing, extra pickups and service tickets.
-
-</td>
-<td valign="top">
-
-### 🧭 Afaq Tahakum · Master Store · Master Libya
-<sub>SaaS · E-commerce · Corporate Web</sub><br/>
-Operations & governance platform, retail storefront, and the Master Libya brand site.
-
-</td>
-</tr>
-</table>
+</div>
 
 <div align="center">
 <a href="https://ahmed-naffati.ly/work"><img src="https://img.shields.io/badge/View%20all%2011%20case%20studies-%E2%86%92-c9a227?style=for-the-badge&labelColor=0d1117"/></a>
