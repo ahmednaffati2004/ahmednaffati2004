@@ -14,7 +14,7 @@ GROUPS = [
     ("CRAFT", [("figma", "Figma"), ("git", "Git"), ("docker", "Docker")]),
 ]
 # Brands whose official colour vanishes on a dark tile.
-LIGHT = {"nextdotjs": "#ffffff", "prisma": "#ffffff", "framer": "#ffffff"}
+LIGHT = {"nextdotjs": "#ffffff", "prisma": "#ffffff", "framer": "#ffffff", "sqlite": "#44a8e0", "mysql": "#5d9ad6", "flutter": "#47c5fb", "postgresql": "#6b9bd8"}
 
 TILE, GAP, LEFT = 96, 14, 190
 cols = max(len(g[1]) for g in GROUPS)
