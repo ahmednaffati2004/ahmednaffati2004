@@ -127,6 +127,11 @@ Operations & governance platform, retail storefront, and the Master Libya brand 
 
 <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=ahmednaffati2004&bg_color=0d1117&color=e6e6e6&line=c9a227&point=f5e6b8&area=true&area_color=c9a227&hide_border=true"/>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahmednaffati2004/ahmednaffati2004/output/snake-dark.svg"/>
+  <img width="96%" alt="Contribution snake" src="https://raw.githubusercontent.com/ahmednaffati2004/ahmednaffati2004/output/snake-light.svg"/>
+</picture>
+
 </div>
 
 <br/>
