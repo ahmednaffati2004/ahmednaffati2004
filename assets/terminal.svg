@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <style>
+    .f{font:15px 'SF Mono',Menlo,Consolas,monospace}
+    .k{fill:#c9a227}.v{fill:#e6e6e6}.c{fill:#6b7280}.s{fill:#a8d68f}
+    .l{opacity:0;animation:in .4s forwards}
+    @keyframes in{to{opacity:1}}
+    .cur{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}
+  </style>
+  <rect width="1200" height="300" rx="14" fill="#0b0e14" stroke="#c9a227" stroke-opacity=".25"/>
+  <rect width="1200" height="38" rx="14" fill="#141821"/>
+  <circle cx="24" cy="19" r="6" fill="#ff5f57"/><circle cx="44" cy="19" r="6" fill="#febc2e"/><circle cx="64" cy="19" r="6" fill="#28c840"/>
+  <text x="600" y="24" text-anchor="middle" class="f c">~/ahmed — zsh</text>
+  <g class="f">
+    <text x="28" y="76" class="l" style="animation-delay:.3s"><tspan class="k">❯</tspan><tspan class="v"> whoami</tspan></text>
+    <text x="28" y="102" class="l" style="animation-delay:.9s"><tspan class="s">Ahmed Naffati</tspan><tspan class="c"> — engineer @ Master Libya</tspan></text>
+    <text x="28" y="138" class="l" style="animation-delay:1.6s"><tspan class="k">❯</tspan><tspan class="v"> cat stack.json</tspan></text>
+    <text x="28" y="164" class="l" style="animation-delay:2.2s"><tspan class="c">{ </tspan><tspan class="k">"web"</tspan><tspan class="v">: [Next.js, React, NestJS, Laravel], </tspan><tspan class="k">"mobile"</tspan><tspan class="v">: [Flutter, iOS],</tspan></text>
+    <text x="28" y="190" class="l" style="animation-delay:2.6s"><tspan class="c">  </tspan><tspan class="k">"data"</tspan><tspan class="v">: [PostgreSQL, Prisma, SQLite], </tspan><tspan class="k">"ships"</tspan><tspan class="v">: </tspan><tspan class="s">"fintech · logistics · saas"</tspan><tspan class="c"> }</tspan></text>
+    <text x="28" y="226" class="l" style="animation-delay:3.3s"><tspan class="k">❯</tspan><tspan class="v"> ./ship --next</tspan></text>
+    <text x="28" y="252" class="l" style="animation-delay:3.9s"><tspan class="s">✔ </tspan><tspan class="v">11 products live · building the next one</tspan><tspan class="k cur"> ▋</tspan></text>
+  </g>
+</svg>

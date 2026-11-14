@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f2e,100:c9a227&height=220&section=header&text=Ahmed%20Naffati&fontSize=58&fontColor=f5e6b8&fontAlignY=38&desc=Full-Stack%20Engineer%20%C2%B7%20Product%20Builder%20%C2%B7%20Tripoli%2C%20Libya&descSize=17&descAlignY=60&descAlign=50&animation=fadeIn" width="100%"/>
+<img src="./assets/hero.svg" width="100%" alt="Ahmed Naffati"/>
 
 <a href="https://ahmed-naffati.ly">
   <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3200&pause=900&color=C9A227&center=true&vCenter=true&width=640&lines=Digital+products+built+with+purpose.;Fintech+%C2%B7+Logistics+%C2%B7+SaaS+%C2%B7+Education;Arabic-first%2C+RTL-native+experiences." alt="Typing intro"/>
@@ -14,7 +14,7 @@
 
 </div>
 
-<br/>
+<img src="./assets/divider.svg" width="100%"/>
 
 ## ◇ About
 
@@ -24,14 +24,9 @@ I'm a web & mobile engineer based in **Tripoli, Libya**, leading technology acro
 I design and ship digital products end to end — from architecture and APIs to pixel-perfect, Arabic-first interfaces —
 for clients across Libya and remotely worldwide.
 
-```yaml
-based_in:   Tripoli, Libya 🇱🇾
-focus:      Fintech · Logistics · SaaS · E-commerce · Education
-languages:  Arabic · English
-building:   Products people use every day
-```
+<img src="./assets/terminal.svg" width="100%" alt="Terminal intro"/>
 
-<br/>
+<img src="./assets/divider.svg" width="100%"/>
 
 ## ◇ Selected Work
 
@@ -106,7 +101,7 @@ Operations & governance platform, retail storefront, and the Master Libya brand 
 <a href="https://ahmed-naffati.ly/work"><img src="https://img.shields.io/badge/View%20all%2011%20case%20studies-%E2%86%92-c9a227?style=for-the-badge&labelColor=0d1117"/></a>
 </div>
 
-<br/>
+<img src="./assets/divider.svg" width="100%"/>
 
 ## ◇ Toolkit
 
@@ -116,7 +111,7 @@ Operations & governance platform, retail storefront, and the Master Libya brand 
 
 </div>
 
-<br/>
+<img src="./assets/divider.svg" width="100%"/>
 
 ## ◇ GitHub at a Glance
 
