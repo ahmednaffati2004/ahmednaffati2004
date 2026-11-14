@@ -3,7 +3,7 @@
 <img src="./assets/hero.svg" width="100%" alt="Ahmed Naffati"/>
 
 <a href="https://ahmed-naffati.ly">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3200&pause=900&color=C9A227&center=true&vCenter=true&width=640&lines=Digital+products+built+with+purpose.;Fintech+%C2%B7+Logistics+%C2%B7+SaaS+%C2%B7+Education;Arabic-first%2C+RTL-native+experiences." alt="Typing intro"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3200&pause=900&color=C9A227&center=true&vCenter=true&width=900&lines=Digital+products+built+with+purpose.;Fintech+%C2%B7+Logistics+%C2%B7+SaaS+%C2%B7+Education;Arabic-first%2C+RTL-native+experiences." alt="Typing intro"/>
 </a>
 
 <br/><br/>
@@ -53,7 +53,7 @@ for clients across Libya and remotely worldwide.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vite,tailwind,nodejs,nestjs,php,prisma,postgres,sqlite,flutter,dart,swift,figma,git,docker&perline=9&theme=dark" />
+<img src="./assets/toolkit.svg" width="100%" alt="Toolkit"/>
 
 </div>
 
@@ -63,10 +63,7 @@ for clients across Libya and remotely worldwide.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ahmednaffati2004&show_icons=true&hide_border=true&bg_color=0d1117&title_color=c9a227&icon_color=c9a227&text_color=e6e6e6&include_all_commits=true&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmednaffati2004&layout=compact&hide_border=true&bg_color=0d1117&title_color=c9a227&text_color=e6e6e6"/>
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=ahmednaffati2004&bg_color=0d1117&color=e6e6e6&line=c9a227&point=f5e6b8&area=true&area_color=c9a227&hide_border=true"/>
+<img src="./assets/stats.svg" width="100%" alt="GitHub stats"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahmednaffati2004/ahmednaffati2004/output/snake-dark.svg"/>
