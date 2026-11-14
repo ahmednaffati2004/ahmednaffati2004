@@ -1,36 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0c11"/><stop offset="1" stop-color="#0e0c1c"/></linearGradient>
-<clipPath id="bc"><rect x="40" y="214" width="1120" height="12" rx="6"/></clipPath>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06070c"/><stop offset="1" stop-color="#110d24"/></linearGradient>
+<linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#151729"/><stop offset="1" stop-color="#0c0d16"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".16"/><stop offset="1" stop-color="#8b7cff" stop-opacity=".06"/></linearGradient>
+<clipPath id="dg"><rect x="0" y="0" width="30" height="52"/></clipPath>
+<clipPath id="bc"><rect x="40" y="226" width="1120" height="10" rx="5"/></clipPath>
 <style>
-.v{font:800 44px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#eef0ff}
-.l{font:600 12px 'SF Mono',Menlo,Consolas,monospace;letter-spacing:2.5px;fill:#8b7cff}
+.v{font:800 46px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#f3f4ff}
+.l{font:600 11.5px 'SF Mono',Menlo,Consolas,monospace;letter-spacing:2.5px;fill:#a9adbf}
 .lg{font:500 15px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#cfd2e0}
 .h{font:600 12px 'SF Mono',Menlo,Consolas,monospace;letter-spacing:3px;fill:#7b7f94}
 .in{opacity:0;animation:in .9s cubic-bezier(.2,.8,.2,1) forwards}
-@keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
-.grow{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:g 1s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.roll{animation:roll 1.8s cubic-bezier(.16,1,.3,1) both}
+@keyframes roll{from{transform:translateY(0)}to{transform:translateY(var(--to))}}
+.ring{animation:ring 1.8s cubic-bezier(.16,1,.3,1) forwards}
+@keyframes ring{to{stroke-dashoffset:var(--off)}}
+.pulse{animation:p 2.4s ease-in-out infinite}@keyframes p{0%,100%{opacity:.3}50%{opacity:1}}
+.bar{animation:bw 1.2s cubic-bezier(.16,1,.3,1) forwards}@keyframes bw{to{width:40px}}
+.grow{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:g 1.1s cubic-bezier(.16,1,.3,1) forwards}
 @keyframes g{to{transform:scaleX(1)}}
 </style></defs>
-<rect x="1" y="1" width="1198" height="298" rx="18" fill="url(#bg)" stroke="#8b7cff" stroke-opacity=".25"/>
+<rect x="1" y="1" width="1198" height="308" rx="20" fill="url(#bg)" stroke="#ffffff" stroke-opacity=".08"/>
 <g class="in" style="animation-delay:0.2s">
-<rect x="40" y="40" width="255" height="120" rx="14" fill="#11141b" stroke="#8b7cff" stroke-opacity=".22"/>
-<text x="64" y="108" class="v">27</text>
-<text x="64" y="138" class="l">REPOSITORIES</text>
-<rect x="64" y="62" width="28" height="2" fill="#8b7cff"/></g><g class="in" style="animation-delay:0.45s">
-<rect x="325" y="40" width="255" height="120" rx="14" fill="#11141b" stroke="#8b7cff" stroke-opacity=".22"/>
-<text x="349" y="108" class="v">1</text>
-<text x="349" y="138" class="l">STARS EARNED</text>
-<rect x="349" y="62" width="28" height="2" fill="#8b7cff"/></g><g class="in" style="animation-delay:0.7s">
-<rect x="610" y="40" width="255" height="120" rx="14" fill="#11141b" stroke="#8b7cff" stroke-opacity=".22"/>
-<text x="634" y="108" class="v">—</text>
-<text x="634" y="138" class="l">CONTRIBUTIONS · 1Y</text>
-<rect x="634" y="62" width="28" height="2" fill="#8b7cff"/></g><g class="in" style="animation-delay:0.95s">
-<rect x="895" y="40" width="255" height="120" rx="14" fill="#11141b" stroke="#8b7cff" stroke-opacity=".22"/>
-<text x="919" y="108" class="v">4</text>
-<text x="919" y="138" class="l">YEARS ON GITHUB</text>
-<rect x="919" y="62" width="28" height="2" fill="#8b7cff"/></g>
-<text x="40" y="200" class="h">LANGUAGES</text>
-<rect x="40" y="214" width="1120" height="12" rx="6" fill="#1b1f28"/>
-<g clip-path="url(#bc)"><rect x="40.0" y="214" width="629.0" height="12" fill="#eef0ff" class="grow" style="animation-delay:0.90s"/><rect x="672.0" y="214" width="429.6" height="12" fill="#a99bff" class="grow" style="animation-delay:1.02s"/><rect x="1104.6" y="214" width="34.9" height="12" fill="#8b7cff" class="grow" style="animation-delay:1.14s"/><rect x="1142.5" y="214" width="9.0" height="12" fill="#5ee1ff" class="grow" style="animation-delay:1.26s"/><rect x="1154.5" y="214" width="2.5" height="12" fill="#4a4290" class="grow" style="animation-delay:1.38s"/></g>
-<circle cx="46" cy="258" r="5" fill="#eef0ff"/><text x="60" y="263" class="lg">HTML <tspan fill="#7b7f94">56%</tspan></text><circle cx="270" cy="258" r="5" fill="#a99bff"/><text x="284" y="263" class="lg">CSS <tspan fill="#7b7f94">39%</tspan></text><circle cx="494" cy="258" r="5" fill="#8b7cff"/><text x="508" y="263" class="lg">SCSS <tspan fill="#7b7f94">3%</tspan></text><circle cx="718" cy="258" r="5" fill="#5ee1ff"/><text x="732" y="263" class="lg">JavaScript <tspan fill="#7b7f94">1%</tspan></text><circle cx="942" cy="258" r="5" fill="#4a4290"/><text x="956" y="263" class="lg">Java <tspan fill="#7b7f94">0%</tspan></text>
+<rect x="40" y="36" width="255" height="138" rx="18" fill="url(#card)" stroke="url(#edge)"/>
+<circle cx="245" cy="82" r="30" fill="none" stroke="#ffffff" stroke-opacity=".07" stroke-width="5"/>
+<circle cx="245" cy="82" r="30" fill="none" stroke="#a99bff" stroke-width="5" stroke-linecap="round"
+  stroke-dasharray="188.5" stroke-dashoffset="188.5" transform="rotate(-90 245 82)" class="ring" style="--off:86.7;animation-delay:0.6s"/>
+<circle cx="245" cy="82" r="4" fill="#a99bff" class="pulse"/>
+<g transform="translate(64 52)"><g clip-path="url(#dg)"><g class="roll" style="--to:-624px;animation-delay:0.50s"><text x="0" y="42" class="v">0</text><text x="0" y="94" class="v">1</text><text x="0" y="146" class="v">2</text><text x="0" y="198" class="v">3</text><text x="0" y="250" class="v">4</text><text x="0" y="302" class="v">5</text><text x="0" y="354" class="v">6</text><text x="0" y="406" class="v">7</text><text x="0" y="458" class="v">8</text><text x="0" y="510" class="v">9</text><text x="0" y="42" class="v">0</text><text x="0" y="94" class="v">1</text><text x="0" y="146" class="v">2</text><text x="0" y="198" class="v">3</text><text x="0" y="250" class="v">4</text><text x="0" y="302" class="v">5</text><text x="0" y="354" class="v">6</text><text x="0" y="406" class="v">7</text><text x="0" y="458" class="v">8</text><text x="0" y="510" class="v">9</text></g></g></g><g transform="translate(94 52)"><g clip-path="url(#dg)"><g class="roll" style="--to:-884px;animation-delay:0.62s"><text x="0" y="42" class="v">0</text><text x="0" y="94" class="v">1</text><text x="0" y="146" class="v">2</text><text x="0" y="198" class="v">3</text><text x="0" y="250" class="v">4</text><text x="0" y="302" class="v">5</text><text x="0" y="354" class="v">6</text><text x="0" y="406" class="v">7</text><text x="0" y="458" class="v">8</text><text x="0" y="510" class="v">9</text><text x="0" y="42" class="v">0</text><text x="0" y="94" class="v">1</text><text x="0" y="146" class="v">2</text><text x="0" y="198" class="v">3</text><text x="0" y="250" class="v">4</text><text x="0" y="302" class="v">5</text><text x="0" y="354" class="v">6</text><text x="0" y="406" class="v">7</text><text x="0" y="458" class="v">8</text><text x="0" y="510" class="v">9</text></g></g></g>
+<text x="64" y="148" class="l">REPOSITORIES</text>
+<rect x="64" y="156" width="0" height="2" fill="#a99bff" class="bar" style="animation-delay:0.8s"/>
+</g><g class="in" style="animation-delay:0.4s">
+<rect x="325" y="36" width="255" height="138" rx="18" fill="url(#card)" stroke="url(#edge)"/>
+<circle cx="530" cy="82" r="30" fill="none" stroke="#ffffff" stroke-opacity=".07" stroke-width="5"/>
+<circle cx="530" cy="82" r="30" fill="none" stroke="#5ee1ff" stroke-width="5" stroke-linecap="round"
+  stroke-dasharray="188.5" stroke-dashoffset="188.5" transform="rotate(-90 530 82)" class="ring" style="--off:181.0;animation-delay:0.8s"/>
+<circle cx="530" cy="82" r="4" fill="#5ee1ff" class="pulse"/>
+<g transform="translate(349 52)"><g clip-path="url(#dg)"><g class="roll" style="--to:-572px;animation-delay:0.70s"><text x="0" y="42" class="v">0</text><text x="0" y="94" class="v">1</text><text x="0" y="146" class="v">2</text><text x="0" y="198" class="v">3</text><text x="0" y="250" class="v">4</text><text x="0" y="302" class="v">5</text><text x="0" y="354" class="v">6</text><text x="0" y="406" class="v">7</text><text x="0" y="458" class="v">8</text><text x="0" y="510" class="v">9</text><text x="0" y="42" class="v">0</text><text x="0" y="94" class="v">1</text><text x="0" y="146" class="v">2</text><text x="0" y="198" class="v">3</text><text x="0" y="250" class="v">4</text><text x="0" y="302" class="v">5</text><text x="0" y="354" class="v">6</text><text x="0" y="406" class="v">7</text><text x="0" y="458" class="v">8</text><text x="0" y="510" class="v">9</text></g></g></g>
+<text x="349" y="148" class="l">STARS EARNED</text>
+<rect x="349" y="156" width="0" height="2" fill="#5ee1ff" class="bar" style="animation-delay:1.0s"/>
+</g><g class="in" style="animation-delay:0.6s">
+<rect x="610" y="36" width="255" height="138" rx="18" fill="url(#card)" stroke="url(#edge)"/>
+<circle cx="815" cy="82" r="30" fill="none" stroke="#ffffff" stroke-opacity=".07" stroke-width="5"/>
+<circle cx="815" cy="82" r="30" fill="none" stroke="#8b7cff" stroke-width="5" stroke-linecap="round"
+  stroke-dasharray="188.5" stroke-dashoffset="188.5" transform="rotate(-90 815 82)" class="ring" style="--off:169.9;animation-delay:1.0s"/>
+<circle cx="815" cy="82" r="4" fill="#8b7cff" class="pulse"/>
+<g transform="translate(634 52)"><g clip-path="url(#dg)"><g class="roll" style="--to:-676px;animation-delay:0.90s"><text x="0" y="42" class="v">0</text><text x="0" y="94" class="v">1</text><text x="0" y="146" class="v">2</text><text x="0" y="198" class="v">3</text><text x="0" y="250" class="v">4</text><text x="0" y="302" class="v">5</text><text x="0" y="354" class="v">6</text><text x="0" y="406" class="v">7</text><text x="0" y="458" class="v">8</text><text x="0" y="510" class="v">9</text><text x="0" y="42" class="v">0</text><text x="0" y="94" class="v">1</text><text x="0" y="146" class="v">2</text><text x="0" y="198" class="v">3</text><text x="0" y="250" class="v">4</text><text x="0" y="302" class="v">5</text><text x="0" y="354" class="v">6</text><text x="0" y="406" class="v">7</text><text x="0" y="458" class="v">8</text><text x="0" y="510" class="v">9</text></g></g></g><g transform="translate(664 52)"><g clip-path="url(#dg)"><g class="roll" style="--to:-832px;animation-delay:1.02s"><text x="0" y="42" class="v">0</text><text x="0" y="94" class="v">1</text><text x="0" y="146" class="v">2</text><text x="0" y="198" class="v">3</text><text x="0" y="250" class="v">4</text><text x="0" y="302" class="v">5</text><text x="0" y="354" class="v">6</text><text x="0" y="406" class="v">7</text><text x="0" y="458" class="v">8</text><text x="0" y="510" class="v">9</text><text x="0" y="42" class="v">0</text><text x="0" y="94" class="v">1</text><text x="0" y="146" class="v">2</text><text x="0" y="198" class="v">3</text><text x="0" y="250" class="v">4</text><text x="0" y="302" class="v">5</text><text x="0" y="354" class="v">6</text><text x="0" y="406" class="v">7</text><text x="0" y="458" class="v">8</text><text x="0" y="510" class="v">9</text></g></g></g>
+<text x="634" y="148" class="l">CONTRIBUTIONS · 1Y</text>
+<rect x="634" y="156" width="0" height="2" fill="#8b7cff" class="bar" style="animation-delay:1.2s"/>
+</g><g class="in" style="animation-delay:0.8s">
+<rect x="895" y="36" width="255" height="138" rx="18" fill="url(#card)" stroke="url(#edge)"/>
+<circle cx="1100" cy="82" r="30" fill="none" stroke="#ffffff" stroke-opacity=".07" stroke-width="5"/>
+<circle cx="1100" cy="82" r="30" fill="none" stroke="#eef0ff" stroke-width="5" stroke-linecap="round"
+  stroke-dasharray="188.5" stroke-dashoffset="188.5" transform="rotate(-90 1100 82)" class="ring" style="--off:113.1;animation-delay:1.2s"/>
+<circle cx="1100" cy="82" r="4" fill="#eef0ff" class="pulse"/>
+<g transform="translate(919 52)"><g clip-path="url(#dg)"><g class="roll" style="--to:-728px;animation-delay:1.10s"><text x="0" y="42" class="v">0</text><text x="0" y="94" class="v">1</text><text x="0" y="146" class="v">2</text><text x="0" y="198" class="v">3</text><text x="0" y="250" class="v">4</text><text x="0" y="302" class="v">5</text><text x="0" y="354" class="v">6</text><text x="0" y="406" class="v">7</text><text x="0" y="458" class="v">8</text><text x="0" y="510" class="v">9</text><text x="0" y="42" class="v">0</text><text x="0" y="94" class="v">1</text><text x="0" y="146" class="v">2</text><text x="0" y="198" class="v">3</text><text x="0" y="250" class="v">4</text><text x="0" y="302" class="v">5</text><text x="0" y="354" class="v">6</text><text x="0" y="406" class="v">7</text><text x="0" y="458" class="v">8</text><text x="0" y="510" class="v">9</text></g></g></g>
+<text x="919" y="148" class="l">YEARS BUILDING</text>
+<rect x="919" y="156" width="0" height="2" fill="#eef0ff" class="bar" style="animation-delay:1.4s"/>
+</g>
+<text x="40" y="212" class="h">LANGUAGES</text>
+<rect x="40" y="226" width="1120" height="10" rx="5" fill="#1a1c2a"/>
+<g clip-path="url(#bc)"><rect x="40.0" y="226" width="629.0" height="10" fill="#eef0ff" class="grow" style="animation-delay:1.20s"/><rect x="672.0" y="226" width="429.6" height="10" fill="#a99bff" class="grow" style="animation-delay:1.32s"/><rect x="1104.6" y="226" width="34.9" height="10" fill="#8b7cff" class="grow" style="animation-delay:1.44s"/><rect x="1142.5" y="226" width="9.0" height="10" fill="#5ee1ff" class="grow" style="animation-delay:1.56s"/><rect x="1154.5" y="226" width="2.5" height="10" fill="#4a4290" class="grow" style="animation-delay:1.68s"/></g>
+<circle cx="46" cy="266" r="5" fill="#eef0ff"/><text x="60" y="271" class="lg">HTML <tspan fill="#7b7f94">56%</tspan></text><circle cx="270" cy="266" r="5" fill="#a99bff"/><text x="284" y="271" class="lg">CSS <tspan fill="#7b7f94">39%</tspan></text><circle cx="494" cy="266" r="5" fill="#8b7cff"/><text x="508" y="271" class="lg">SCSS <tspan fill="#7b7f94">3%</tspan></text><circle cx="718" cy="266" r="5" fill="#5ee1ff"/><text x="732" y="271" class="lg">JavaScript <tspan fill="#7b7f94">1%</tspan></text><circle cx="942" cy="266" r="5" fill="#4a4290"/><text x="956" y="271" class="lg">Java <tspan fill="#7b7f94">0%</tspan></text>
 </svg>
