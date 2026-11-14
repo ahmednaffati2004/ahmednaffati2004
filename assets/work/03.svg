@@ -21,8 +21,7 @@
 <clipPath id="c"><rect x="1" y="1" width="598" height="228" rx="16"/></clipPath>
 </defs>
 <rect x="1" y="1" width="598" height="228" rx="16" fill="url(#bg)"/>
-<g clip-path="url(#c)"><rect width="600" height="230" fill="url(#gl)"/>
-<rect class="sw" x="0" y="0" width="80" height="230" fill="#f5e6b8" opacity=".035" transform="skewX(-20)"/></g>
+<g clip-path="url(#c)"><rect width="600" height="230" fill="url(#gl)"/></g>
 <rect x="1" y="1" width="598" height="228" rx="16" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
 <g class="in">
 <text class="n" x="574" y="78" text-anchor="end">03</text>

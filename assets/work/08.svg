@@ -21,8 +21,7 @@
 <clipPath id="c"><rect x="1" y="1" width="598" height="228" rx="16"/></clipPath>
 </defs>
 <rect x="1" y="1" width="598" height="228" rx="16" fill="url(#bg)"/>
-<g clip-path="url(#c)"><rect width="600" height="230" fill="url(#gl)"/>
-<rect class="sw" x="0" y="0" width="80" height="230" fill="#f5e6b8" opacity=".035" transform="skewX(-20)"/></g>
+<g clip-path="url(#c)"><rect width="600" height="230" fill="url(#gl)"/></g>
 <rect x="1" y="1" width="598" height="228" rx="16" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
 <g class="in">
 <text class="n" x="574" y="78" text-anchor="end">08</text>
@@ -30,7 +29,7 @@
 <g transform="translate(40 40)"><path class="ic" d="M16 4a12 12 0 1 0 0 24 12 12 0 0 0 0-24zM16 10l3 6-3 6-3-6z"/></g>
 <text class="t" x="30" y="128">Afaq Tahakum</text>
 <text class="g" x="30" y="152">SAAS · OPERATIONS</text>
-<text class="d" x="30" y="182">Control & governance platform with</text>
+<text class="d" x="30" y="182">Control &amp; governance platform with</text>
 <text class="d" x="30" y="204">monitoring and structured workflows.</text>
 <g class="ar"><text class="a" x="570" y="204" text-anchor="end">CASE STUDY →</text></g>
 </g></svg>
